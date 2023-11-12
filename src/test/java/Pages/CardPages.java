@@ -6,7 +6,7 @@ import utilities.ConfigurationReader;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class CartPages {
+public class CardPages {
     String cardIds[]=new String[2];
     public void createTwoCards(String listId){
 
